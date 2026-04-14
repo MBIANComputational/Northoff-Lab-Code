@@ -1,9 +1,9 @@
 # This is a script to extract the ROIs for the Three Layers of Self, from Qin et al. 2020 (Table 2)
 current_dir=$(pwd)
 
-template_image=$current_dir/MNI152_2009_template.nii.gz
-sample_epi_image=/Users/fdjim/Desktop/PDS_FULL/sub-003P/func/sub-003P_task-pds_bold.nii
-output_dir=$current_dir/ROIs_NII
+template_image=TEMPLATE_IMG_PATH_HERE
+sample_epi_image=IMG_PATH_HERE
+output_dir=OUTPUT_DIR_HERE
 mkdir $output_dir
 
 3dresample \
